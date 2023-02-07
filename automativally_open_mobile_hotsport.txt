@@ -1,0 +1,23 @@
+Using this instruction you can automatically open your windows 10 "mobile hot-sport"
+settings on.
+
+Step 1: Copy this power-shell file in "File/hotsport.ps1" and pest it in your any local drive.
+        It will be good to pest in Drive C.
+Step 2: Now create a Task Scheduler where set
+       Trigger:
+       Program or script path is : C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+       Argument: Your 'hotsport.ps1' file saved location.
+
+step 3: Set others settings as required.
+
+Thats All. Happy :) :) :) :) :) :)
+
+
+If you get an error or Resticted : Then Flow this 
+open powershell as an Administrator Mode
+check status: GET-Executionpolicty -list 
+
+If you get any resticted policy  then flow 
+set unristction policy: Set-ExecutionPolicy -ExecutionPolicy unrestricted 
+
+Thats it 
